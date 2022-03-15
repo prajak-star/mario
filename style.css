@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.head{
+    width: 100%;
+    text-align: center;
+}
+.head button{
+    float: right;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+}
+.head h1{
+    display: inline;
+}
+.bigmario{
+    width: 100%;
+}
+#console{
+    background: url("game_console.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 1000px;
+}
