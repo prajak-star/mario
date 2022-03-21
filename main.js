@@ -3,6 +3,11 @@ nosey=" ";
 
 function preload() {
 	world_start = loadSound("world_start.wav");
+	jump= loadSound("jump.wav");
+	kick= loadSound("kick.wav");
+	mariodie=loadSound("mariodie.wav");
+	gameover=loadSound("gameover.wav");
+	coin= loadSound("coin.wav");
 	setSprites();
 	MarioAnimation();
 }
