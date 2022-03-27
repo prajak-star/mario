@@ -377,7 +377,7 @@ function StepOnEnemy(obj1,obj2){
 function die(character){
     character.live=false;
     character.dying+=120;
-    character.liveNumber--;
+   // character.liveNumber--//
     character.status="dead";
     character.changeAnimation('dead');
     character.velocity.y-=2;
